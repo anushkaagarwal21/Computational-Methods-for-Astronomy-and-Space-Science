@@ -1,0 +1,14 @@
+Smoothing through convolution
+
+(a) Generate a 3D grid of size 64 × 64 × 64.
+(b) Generate a Gaussian random field in this grid with mean 0 and sigma 1.
+(c) Plot this field in 3D and with 2D slices.
+(d) Generate a sphere (with its centre at the centre of the grid) on a grid of size 64^3. Starting with a radius of 1 grid unit. Make all cells inside the sphere have a value of 1 and all outside should have a value of 0.
+(e) Fourier transform (FT) both the grids containing the Gaussian random field and the sphere.
+(f) Multiply these two Fourier-transformed grids.
+(g) Back FT the product grid and plot it.
+(h) Vary the radius of the smoothing sphere from 1 grid unit to half of the grid size i.e. 32 for a grid of 64^3.
+(i) Plot the field for these various smoothing scales.
+(j) Plot the mean and variance of the smoothed field as a function of smoothing radii.
+(k) Did you do everything correctly so far? Is there any need for normalization anywhere?
+(l) What implicit assumption regarding the field has to be satisfied for this smoothing operation through convolution to work?
